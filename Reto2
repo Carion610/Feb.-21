@@ -1,0 +1,14 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  var h= pitagoras (2,3);
+  console.log(h);
+}
+
+function pitagoras(a, b) {
+  var c = sqrt(a * a + b * b);
+  return c;
+}
